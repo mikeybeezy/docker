@@ -6,8 +6,6 @@ sudo yum install docker -y
 sudo service iptables start
 sudo iptables -L
 
-sudo iptables -F
-
 sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 
 sudo iptables -A INPUT -p tcp --dport 2377 -j ACCEPT
