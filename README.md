@@ -1,4 +1,6 @@
 # Docker swarm setup
+
+#ANOTHER METHOD FROM DOCKER https://www.digitalocean.com/community/tutorials/how-to-configure-the-linux-firewall-for-docker-swarm-on-centos-7
 #https://www.rosehosting.com/blog/how-to-open-ports-in-ubuntu-and-centos-using-iptables/
 
 Having a properly configured firewall is very important for the overall security on your server. In this tutorial, we are going to show you how to set up your firewall and open the ports you need on your Linux VPS.
